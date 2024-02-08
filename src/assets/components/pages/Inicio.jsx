@@ -3,7 +3,7 @@
 const Inicio = () => {
     return (
         <div>
-            <p>aqui va eñ main de index</p>
+            <p>aqui va el main del index</p>
         </div>
     );
 };

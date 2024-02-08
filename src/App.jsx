@@ -12,7 +12,7 @@ function App() {
    <Menu></Menu>
    <Inicio></Inicio>
    {/**<Administrador></Administrador> */}
-   <Footer></Footer>
+   <Footer></Footer> 
     </>
   )
 }
