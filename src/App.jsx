@@ -1,8 +1,9 @@
 import './App.css'
-import Footer from './assets/components/common/Footer'
-import Menu from './assets/components/common/Menu'
-import Inicio from './assets/components/pages/Inicio'
-
+import 'bootstrap/dist/css/bootstrap.main.css';
+import Footer from './components/common/Footer'
+import Menu from '/components/common/Menu'
+import Administrador from './components/pages/Administrador';
+import Inicio from './components/pages/Inicio';
 
 function App() {
  
@@ -10,8 +11,8 @@ function App() {
   return (
     <>
    <Menu></Menu>
-   <Inicio></Inicio>
-   {/**<Administrador></Administrador> */}
+ <Inicio></Inicio>
+  <Administrador></Administrador>
    <Footer></Footer> 
     </>
   )
