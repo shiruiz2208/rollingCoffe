@@ -1,5 +1,5 @@
 import {Navbar,Nav,Container} from "react-bootstrap";
-import logo from '../../../assets/Coffee_Logo.png';
+import logo from '../../assets/Coffee_Logo.png';
 
 const Menu = () => {
     return (
