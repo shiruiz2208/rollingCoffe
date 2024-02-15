@@ -1,4 +1,22 @@
-footer{
+
+#root{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-green{
     background: #003c25;
 }
 
+.mainContainer{
+    flex-grow: 1;
+}
+
+.bg-verdecito{
+    background-color: #003c25;
+}
+
+.text-verdecito{
+    color:#003c25
+}

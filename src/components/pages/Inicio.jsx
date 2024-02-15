@@ -1,10 +1,25 @@
+import { Container, Row } from "react-bootstrap";
+import CardProducto from './Producto/CardProducto'
+import BannerInicio from "../../assets/bannerInicio.png"
 
-
-const Inicio = () => {
+const Inicio = () =>{
     return (
-        <div>
-            <p>aqui va el main del index</p>
-        </div>
+        <>
+        <img src={BannerInicio} alt="Banner Rolling Coffee"/>
+        <Container className="mainContainer">
+        <section>
+            <h2 className="display-3" >Nuestros productos</h2>
+            <hr/>
+            <Row className="justify-content-around">
+                <CardProducto ></CardProducto>
+                <CardProducto ></CardProducto>
+                <CardProducto ></CardProducto>
+                <CardProducto ></CardProducto>
+            </Row>
+                </section>
+                </Container>
+
+        </>
     );
 };
 
