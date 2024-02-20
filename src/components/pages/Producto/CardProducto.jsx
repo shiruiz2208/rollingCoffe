@@ -3,7 +3,7 @@ import cafeAmericano from '../../../assets/cafeAmericano.png'
 const CardProducto = () => {
     return (
         <Col md={3} lg={3}>
-        <Card className='m-1'>
+          <Card className='m-1'>
             <Card.Img variant='top' src={cafeAmericano} />
             <Card.Body>
                 <CardTitle className='text-verdecito'> Titulo</CardTitle>
@@ -16,7 +16,7 @@ const CardProducto = () => {
                     <Button variant='sucess'>Ver más</Button>
                 </div>
             </Card.Body>
-        </Card>
+          </Card>
         </Col>
     );
 };

@@ -1,6 +1,5 @@
 import { Container } from "react-bootstrap";
 
-
 const Administrador = () => {
     return (
         <Container className="mainContainer">
@@ -18,13 +17,13 @@ const Administrador = () => {
                     </thead>
                     <tbody>
                         <tr>
-                         <tr>
+                            <tr>
                                 <td>1</td>
                                 <td>Capuccino</td>
                                 <td>$150</td>
                                 <td>
-                                <div className="middle-item">
-                                    <img className="img-fluid " src="https://images.pexels.com/photos/437716/pexels-photo-437716.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Capuccino" />
+                                    <div className="middle-item">
+                                        <img className="img-fluid " src="https://images.pexels.com/photos/437716/pexels-photo-437716.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Capuccino" />
                                     </div>
                                 </td>
                                 <td>Nose</td>
